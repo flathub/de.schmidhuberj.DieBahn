@@ -19,8 +19,8 @@
         {
             "type": "git",
             "url": "https://gitlab.gnome.org/GNOME/gtk.git",
-            "tag": "4.6.1",
-            "commit": "5088103d31942e2af87ed64a61967cdc6af48f78"
+            "tag": "4.6.2",
+            "commit": "aec7ca82007dbe07faee6be084d20758ebac2b91"
         }
     ],
     "modules" : [
