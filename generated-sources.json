@@ -678,14 +678,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/hafas-rest/hafas-rest-0.1.1.crate",
-        "sha256": "66078c9459421b83c7c68184286c1ee45b483b50f9d6fedc493485da8f1688f8",
-        "dest": "cargo/vendor/hafas-rest-0.1.1"
+        "url": "https://static.crates.io/crates/hafas-rest/hafas-rest-0.1.2.crate",
+        "sha256": "61aac15680b233beebcb19910aaa9daad16f8c3f1bc068ba17a3257bd4ef194d",
+        "dest": "cargo/vendor/hafas-rest-0.1.2"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2266078c9459421b83c7c68184286c1ee45b483b50f9d6fedc493485da8f1688f8%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/hafas-rest-0.1.1",
+        "url": "data:%7B%22package%22%3A%20%2261aac15680b233beebcb19910aaa9daad16f8c3f1bc068ba17a3257bd4ef194d%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/hafas-rest-0.1.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
