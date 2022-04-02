@@ -35,13 +35,16 @@
                 "ls -ld po/locale/*/ | sed 's|.*po/locale/||' | xargs -I % ln -s '/app/sharelocale/locale/%LC_MESSAGES/de.schmidhuberj.DieBahn.mo' /app/share/locale/%LC_MESSAGES/de.schmidhuberj.DieBahn.mo",
                 "install -D packaging/de.schmidhuberj.DieBahn.metainfo.xml /app/share/metainfo/de.schmidhuberj.DieBahn.metainfo.xml",
                 "install -D packaging/de.schmidhuberj.DieBahn.desktop /app/share/applications/de.schmidhuberj.DieBahn.desktop",
-                "install -D packaging/de.schmidhuberj.DieBahn.png /app/share/icons/hicolor/512x512/apps/de.schmidhuberj.DieBahn.png"
+                "install -D packaging/de.schmidhuberj.DieBahn.png /app/share/icons/hicolor/512x512/apps/de.schmidhuberj.DieBahn.png",
+                "install -D de.schmidhuberj.DieBahn.gschema.xml /app/share/glib-2.0/schemas//de.schmidhuberj.DieBahn.gschema.xml",
+                "glib-compile-schemas /app/share/glib-2.0/schemas/"
             ],
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://gitlab.com/Schmiddiii/diebahn/-/archive/v0.1.4/diebahn-v0.1.4.tar.gz",
-                    "sha512": "a16ce9e5173ef45bd4454bb6bfb5239a1020822160ee77f5adf78824e3a9010708ebd82061bc6bd967a6f7a13c72389fb3b68bf9f9b74d49e58016c40ef34660"
+                    "type": "git",
+                    "url": "https://gitlab.com/Schmiddiii/diebahn.git",
+                    "branch": "master",
+                    "commit": "c2701da838e46f561ded476a180945b3a2be826f"
 		}, 
                 {
                     "type": "patch",
