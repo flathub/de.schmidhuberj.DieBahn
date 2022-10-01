@@ -42,8 +42,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/Schmiddiii/diebahn/-/archive/v1.1.0/diebahn-v1.1.0.tar.gz",
-                    "sha512": "2b6280da53e4f8e63c01738e0fd1de73faac5f08f81ba9485dee44ed975ad26ca258ecab4e8fd58722eb2e2083403e3e519e89a86a7863b34a9c552b519d85e2"
+                    "url": "https://gitlab.com/Schmiddiii/diebahn/-/archive/1.2.0/diebahn-1.2.0.tar.gz",
+                    "sha512": "0e8d4235ec57ea431e8ae4723f7a9b8830c32b201df36505455f6ede2a423fcf787d1053d628022d6d932db368806b1ac7a22ac1dc1cbb1965777bec7beda716"
 		}, 
                 {
                     "type": "patch",
