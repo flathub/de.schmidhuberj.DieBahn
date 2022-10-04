@@ -691,7 +691,7 @@
     {
         "type": "git",
         "url": "https://gitlab.com/Schmiddiii/hafas-rs",
-        "commit": "d45dcb0e0aac5dde1be89b34fed00b5d74a76efc",
+        "commit": "129ec0d76a62bc61444a6bdae257a60c1bfbd98a",
         "dest": "cargo/vendor/hafas-rs"
     },
     {
@@ -2210,7 +2210,7 @@
     },
     {
         "type": "file",
-        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A%0A%5Bsource.%22https%3A//gitlab.com/Schmiddiii/hafas-rs%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/Schmiddiii/hafas-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22d45dcb0e0aac5dde1be89b34fed00b5d74a76efc%22%0A",
+        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A%0A%5Bsource.%22https%3A//gitlab.com/Schmiddiii/hafas-rs%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/Schmiddiii/hafas-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22129ec0d76a62bc61444a6bdae257a60c1bfbd98a%22%0A",
         "dest": "cargo",
         "dest-filename": "config"
     }
