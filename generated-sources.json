@@ -2,8 +2,8 @@
     {
         "type": "git",
         "url": "https://gitlab.com/Schmiddiii/hafas-rs",
-        "commit": "129ec0d76a62bc61444a6bdae257a60c1bfbd98a",
-        "dest": "flatpak-cargo/git/hafas-rs-129ec0d"
+        "commit": "494fa671ca9ec1bfd1118c695a7dedf500c2b88a",
+        "dest": "flatpak-cargo/git/hafas-rs-494fa67"
     },
     {
         "type": "archive",
@@ -658,27 +658,27 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/gtk4/gtk4-0.4.8.crate",
-        "sha256": "c64f0c2a3d80e899dc3febddad5bac193ffcf74a0fd7e31037f30dd34d6f7396",
-        "dest": "cargo/vendor/gtk4-0.4.8"
+        "url": "https://static.crates.io/crates/gtk4/gtk4-0.4.9.crate",
+        "sha256": "4e8ae5aef2793bc3551b5e5e3fa062a5de54bb1eccf10dfa4effe9e4384fbbbc",
+        "dest": "cargo/vendor/gtk4-0.4.9"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"c64f0c2a3d80e899dc3febddad5bac193ffcf74a0fd7e31037f30dd34d6f7396\", \"files\": {}}",
-        "dest": "cargo/vendor/gtk4-0.4.8",
+        "contents": "{\"package\": \"4e8ae5aef2793bc3551b5e5e3fa062a5de54bb1eccf10dfa4effe9e4384fbbbc\", \"files\": {}}",
+        "dest": "cargo/vendor/gtk4-0.4.9",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/gtk4-macros/gtk4-macros-0.4.8.crate",
-        "sha256": "fafbcc920af4eb677d7d164853e7040b9de5a22379c596f570190c675d45f7a7",
-        "dest": "cargo/vendor/gtk4-macros-0.4.8"
+        "url": "https://static.crates.io/crates/gtk4-macros/gtk4-macros-0.4.9.crate",
+        "sha256": "d9a4a8077b3a392dd7d637924529e1213d2e0c8e4d531177bc3355e86c257a54",
+        "dest": "cargo/vendor/gtk4-macros-0.4.9"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"fafbcc920af4eb677d7d164853e7040b9de5a22379c596f570190c675d45f7a7\", \"files\": {}}",
-        "dest": "cargo/vendor/gtk4-macros-0.4.8",
+        "contents": "{\"package\": \"d9a4a8077b3a392dd7d637924529e1213d2e0c8e4d531177bc3355e86c257a54\", \"files\": {}}",
+        "dest": "cargo/vendor/gtk4-macros-0.4.9",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -697,7 +697,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/hafas-rs-129ec0d/.\" \"cargo/vendor/hafas-rs\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/hafas-rs-494fa67/.\" \"cargo/vendor/hafas-rs\""
         ]
     },
     {
@@ -2216,7 +2216,7 @@
     },
     {
         "type": "inline",
-        "contents": "[source.vendored-sources]\ndirectory = \"cargo/vendor\"\n\n[source.crates-io]\nreplace-with = \"vendored-sources\"\n\n[source.\"https://gitlab.com/Schmiddiii/hafas-rs\"]\ngit = \"https://gitlab.com/Schmiddiii/hafas-rs\"\nreplace-with = \"vendored-sources\"\nrev = \"129ec0d76a62bc61444a6bdae257a60c1bfbd98a\"\n",
+        "contents": "[source.vendored-sources]\ndirectory = \"cargo/vendor\"\n\n[source.crates-io]\nreplace-with = \"vendored-sources\"\n\n[source.\"https://gitlab.com/Schmiddiii/hafas-rs\"]\ngit = \"https://gitlab.com/Schmiddiii/hafas-rs\"\nreplace-with = \"vendored-sources\"\nrev = \"494fa671ca9ec1bfd1118c695a7dedf500c2b88a\"\n",
         "dest": "cargo",
         "dest-filename": "config"
     }

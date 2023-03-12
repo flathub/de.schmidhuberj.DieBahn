@@ -1,7 +1,7 @@
 {
     "app-id": "de.schmidhuberj.DieBahn",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -47,8 +47,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/Schmiddiii/diebahn/-/archive/v1.2.1/diebahn-v1.2.1.tar.gz",
-                    "sha512": "38480e5e49c8e584ec62b04a41b620b4ceab4d2af80704e89050ee1e8a7e5f757aea0e585a98b57528610a5d78b066d5b72e8f9e9c08baeb7c08938390f0fe0d"
+                    "url": "https://gitlab.com/Schmiddiii/diebahn/-/archive/v1.2.2/diebahn-v1.2.2.tar.gz",
+                    "sha512": "54091ed8234028094f4109ad7b0065a342d03e00eb7e8bf3efc3bcc3a80205f1af8e8c0c89e8e1fe73399ace4cc68f5821e12d222800b181a20bc1fd17c8e5e4"
 		}, 
                 {
                     "type": "patch",
