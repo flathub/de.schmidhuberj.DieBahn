@@ -32,6 +32,10 @@
                     "archive-type": "tar-xz",
                     "url": "https://gitlab.com/Schmiddiii/diebahn/-/package_files/73246064/download",
                     "sha256": "4a60068d3a0a2e482086fca41fec5ef202dbebb633dd9e0f76cf63be03b81fc8"
+                },
+                {
+                    "type": "patch",
+                    "path": "metainfo.patch"
                 }
             ]
         }
