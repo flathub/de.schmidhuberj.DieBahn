@@ -30,8 +30,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/Schmiddiii/diebahn/-/package_files/79295340/download",
-                    "sha256": "a187d13f4607197c211f207b8dd6ba371b6dfa33020770d08f4051704c1594e7"
+                    "url": "https://gitlab.com/Schmiddiii/diebahn/-/package_files/81062468/download",
+                    "sha256": "c57c0b25e487a0e66069ac794c62b964fa93d7815a05a74e677aba0b498bc6a3"
                 }
             ]
         }
