@@ -30,7 +30,7 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/Schmiddiii/diebahn/-/package_files/85560118/download",
+                    "url": "https://gitlab.com/schmiddi-on-mobile/diebahn/-/package_files/85560118/download",
                     "sha256": "2b1bdb5a0e432f836eff000acd9db11db015faa734c165fad6c44af8b09390cd"
                 }
             ]
