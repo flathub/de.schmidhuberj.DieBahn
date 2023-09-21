@@ -1,0 +1,13 @@
+diff --git a/data/de.schmidhuberj.DieBahn.metainfo.xml.in b/data/de.schmidhuberj.DieBahn.metainfo.xml.in
+index 1d78f5b..dc9e932 100644
+--- a/data/de.schmidhuberj.DieBahn.metainfo.xml.in
++++ b/data/de.schmidhuberj.DieBahn.metainfo.xml.in
+@@ -130,7 +130,7 @@
+   <screenshots>
+     <screenshot type="default">
+       <caption>Application Overview</caption>
+-      <image>https://gitlab.com/schmiddi-on-mobile/railway/blob/master/data/screenshots/overview.png?raw=true</image>
++      <image>https://gitlab.com/schmiddi-on-mobile/railway/-/raw/master/data/screenshots/overview.png</image>
+     </screenshot>
+   </screenshots>
+ 
