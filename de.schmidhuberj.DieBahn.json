@@ -32,13 +32,12 @@
                     "archive-type": "tar-xz",
                     "url": "https://gitlab.com/schmiddi-on-mobile/railway/-/package_files/94770017/download",
                     "sha256": "f45ba1d1a69c5e74b7f9ba0ba08db992dadeb61a9ed624952b55b851013be942"
-                }
+                },
+            		{
+            		    "type": "patch",
+            		    "path": "metainfo.patch"
+            		}
             ]
-        },
-    		{
-            "name": "tmp-metainfo-patch",
-    		    "type": "patch",
-    		    "path": "metainfo.patch"
-    		}
+        }
     ]
 }
