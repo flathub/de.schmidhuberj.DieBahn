@@ -36,6 +36,7 @@
             ]
         },
     		{
+            "name": "tmp-metainfo-patch",
     		    "type": "patch",
     		    "path": "metainfo.patch"
     		}
