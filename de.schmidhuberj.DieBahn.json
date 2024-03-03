@@ -11,7 +11,6 @@
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--socket=pulseaudio",
         "--device=dri",
         "--share=network"
     ],
@@ -30,9 +29,13 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/schmiddi-on-mobile/railway/-/package_files/112820199/download",
-                    "sha256": "66544e6cc4f8ea114e0d68017082b6de07f832911ed65acd0eece0753733e7c5"
-                }
+                    "url": "https://gitlab.com/schmiddi-on-mobile/railway/-/package_files/115848639/download",
+                    "sha256": "6a88f1fb77575bc44f0e50d0dcf174087b53978deaf3b788e090771c642f8aed"
+                },
+            		{
+            		    "type": "patch",
+            		    "path": "metainfo.patch"
+            		}
             ]
         }
     ]
