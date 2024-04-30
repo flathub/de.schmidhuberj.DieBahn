@@ -1,7 +1,7 @@
 {
     "app-id": "de.schmidhuberj.DieBahn",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -29,13 +29,9 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/schmiddi-on-mobile/railway/-/package_files/115848639/download",
-                    "sha256": "6a88f1fb77575bc44f0e50d0dcf174087b53978deaf3b788e090771c642f8aed"
-                },
-            		{
-            		    "type": "patch",
-            		    "path": "metainfo.patch"
-            		}
+                    "url": "https://gitlab.com/schmiddi-on-mobile/railway/-/package_files/125623770/download",
+                    "sha256": "0d4a12a8d6135a96c7301c8f4243eeee9e19b8479ccb8d1017cd2d44f0e38818"
+                }
             ]
         }
     ]
