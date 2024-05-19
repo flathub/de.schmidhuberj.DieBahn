@@ -1,16 +1,16 @@
 {
     "app-id": "de.schmidhuberj.DieBahn",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
     "command": "diebahn",
     "finish-args": [
+        "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--socket=pulseaudio",
         "--device=dri",
         "--share=network"
     ],
@@ -24,35 +24,14 @@
     "modules": [
         {
             "name": "diebahn",
-            "buildsystem": "simple",
-            "build-commands": [
-                "cargo --offline fetch --manifest-path Cargo.toml",
-                "cargo --offline build --release",
-                "install -D target/release/diebahn /app/bin/diebahn",
-                "ls -ld po/locale/*/ | sed 's|.*po/locale/||' | xargs -I % mkdir -p /app/sharelocale/locale/%LC_MESSAGES/",
-                "ls -ld po/locale/*/ | sed 's|.*po/locale/||' | xargs -I % cp 'po/locale/%LC_MESSAGES/de.schmidhuberj.DieBahn.mo' /app/sharelocale/locale/%LC_MESSAGES/de.schmidhuberj.DieBahn.mo",
-                "ls -ld po/locale/*/ | sed 's|.*po/locale/||' | xargs -I % mkdir -p /app/share/locale/%LC_MESSAGES/",
-                "ls -ld po/locale/*/ | sed 's|.*po/locale/||' | xargs -I % ln -s '/app/sharelocale/locale/%LC_MESSAGES/de.schmidhuberj.DieBahn.mo' /app/share/locale/%LC_MESSAGES/de.schmidhuberj.DieBahn.mo",
-                "install -D packaging/de.schmidhuberj.DieBahn.metainfo.xml /app/share/metainfo/de.schmidhuberj.DieBahn.metainfo.xml",
-                "install -D packaging/de.schmidhuberj.DieBahn.desktop /app/share/applications/de.schmidhuberj.DieBahn.desktop",
-                "install -D packaging/de.schmidhuberj.DieBahn.png /app/share/icons/hicolor/512x512/apps/de.schmidhuberj.DieBahn.png",
-                "install -D de.schmidhuberj.DieBahn.gschema.xml /app/share/glib-2.0/schemas//de.schmidhuberj.DieBahn.gschema.xml",
-                "glib-compile-schemas /app/share/glib-2.0/schemas/"
-            ],
+            "buildsystem": "meson",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://gitlab.com/Schmiddiii/diebahn.git",
-                    "branch": "master",
-                    "commit": "c2701da838e46f561ded476a180945b3a2be826f"
-		}, 
-                {
-                    "type": "patch",
-                    "path": "internationalization.patch"
-		}, 
-                "generated-sources.json"
-            ],
-            "post-install": [
+                    "type": "archive",
+                    "archive-type": "tar-xz",
+                    "url": "https://gitlab.com/schmiddi-on-mobile/railway/-/package_files/125623770/download",
+                    "sha256": "0d4a12a8d6135a96c7301c8f4243eeee9e19b8479ccb8d1017cd2d44f0e38818"
+                }
             ]
         }
     ]
