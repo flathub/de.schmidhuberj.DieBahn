@@ -29,8 +29,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/schmiddi-on-mobile/railway/-/package_files/132882760/download",
-                    "sha256": "4dd9e9ab5543316e1eb03dba0e6a5891b731ad2017021873e8c59933e0187773"
+                    "url": "https://gitlab.com/schmiddi-on-mobile/railway/-/package_files/139774320/download",
+                    "sha256": "f164caeafe214f0b1fbc422ad8ca63e620b384239fbe27d34972468c3b95a2b4"
                 }
             ]
         }
