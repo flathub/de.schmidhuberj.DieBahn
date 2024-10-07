@@ -23,6 +23,25 @@
     },
     "modules": [
         {
+            "name": "blueprint-compiler",
+            "buildsystem": "meson",
+            "cleanup": [
+                "*"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
+                    "tag": "v0.14.0",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    },
+                    "commit": "8e10fcf8692108b9d4ab78f41086c5d7773ef864"
+                }
+            ]
+        },
+        {
             "name": "diebahn",
             "buildsystem": "meson",
             "sources": [
