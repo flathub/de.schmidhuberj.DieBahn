@@ -1,7 +1,7 @@
 {
     "app-id": "de.schmidhuberj.DieBahn",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -23,14 +23,33 @@
     },
     "modules": [
         {
+            "name": "blueprint-compiler",
+            "buildsystem": "meson",
+            "cleanup": [
+                "*"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
+                    "tag": "v0.16.0",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    },
+                    "commit": "04ef0944db56ab01307a29aaa7303df6067cb3c0"
+                }
+            ]
+        },
+        {
             "name": "diebahn",
             "buildsystem": "meson",
             "sources": [
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/schmiddi-on-mobile/railway/-/package_files/131587529/download",
-                    "sha256": "d8ef99f9940bb2218003a692ac9c35a527758f562206dffa06971ad7182c6cc3"
+                    "url": "https://gitlab.com/schmiddi-on-mobile/railway/-/package_files/172596967/download",
+                    "sha256": "808991b278f6afa7fc33fa9b311ebb1c0c1b3f9cbe627ff62d8a4106e7ef3ec3"
                 }
             ]
         }
