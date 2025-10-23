@@ -1,7 +1,7 @@
 {
     "app-id": "de.schmidhuberj.DieBahn",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -48,8 +48,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/api/v4/projects/34570753/packages/generic/railway/2.8.2/diebahn-2.8.2.tar.xz",
-                    "sha256": "59606f8317922763139bd0deb972732cdf6e4f7d4447ab4c4151d45cbf2e8bcf"
+                    "url": "https://gitlab.com/api/v4/projects/34570753/packages/generic/railway/2.9.0/diebahn-2.9.0.tar.xz",
+                    "sha256": "a1bb526736ad99906af83410a543774836e8cc7451318d08f521de3f3080ac14"
                 }
             ]
         }
