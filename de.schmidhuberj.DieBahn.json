@@ -29,8 +29,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/api/v4/projects/34570753/packages/generic/railway/2.9.4/diebahn-2.9.4.tar.xz",
-                    "sha256": "8f822b0de56bf1a4b7cdd99dba4719eee61e7b840de81aa7042607abee08ecff"
+                    "url": "https://gitlab.com/api/v4/projects/34570753/packages/generic/railway/2.10.0/diebahn-2.10.0.tar.xz",
+                    "sha256": "8e7f0ff7d1f5980215bc90f65f8c9d0e2f0f23281fffb36e4bea637b0f328c43"
                 }
             ]
         }
